@@ -46,10 +46,11 @@ Thumbs.db
 *.sqlite3
 *.db
 
-# Output files
+# Output files (but not requirements.txt)
 *.out
-*.txt
 generated_posts/
+output.txt
+logs.txt
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -61,5 +62,5 @@ htmlcov/
 
 # mypy
 .mypy_cache/
-.dmypy.json
+.dmyp.json
 dmypy.json 
